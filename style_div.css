@@ -1,0 +1,17 @@
+#main{
+width:70%;
+margin: 0 auto;
+border: 2px solid #AEC2B3;
+min-width: 450px;
+max-width: 800px}
+.virsh {
+overflow: hidden;
+}
+.colonka2 {
+float: left;
+width: 50%;
+}
+.colonka1 {
+float: left;
+width: 50%;
+}

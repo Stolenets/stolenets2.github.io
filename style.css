@@ -1,0 +1,43 @@
+body {line-height:1;
+	font-family: Serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	letter-spacing: normal;
+	color: #000000;}
+.university{text-align: justify;
+	font: 12pt/24pt serif;}
+.school{text-align: left;
+	line-height: 1.5;}
+#footnotes{text-align: right;
+	font-style: italic;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #808080;
+	text-transform: lowercase; }
+p {text-indent: 25pt;
+	font-size: 12pt;}
+h1 {letter-spacing: 5pt;
+	font-variant: small-caps;
+	font-family: Comic Sans MS,Verdana,Tahoma;}
+@font-face {font-family: Flow;
+	src: url(Flow.otf);}
+h2 {font-family: Flow, Comic Sans MS,Verdana,Tahoma;}
+p sup {color: #FF0000;}
+p#footnotes sup {color: #00FF00;}
+p u {color: #0000FF;}
+p > u {font-weight: bold;}
+i + i{
+color: #00FF00;}
+b+ i{
+color: #00FFFF;}
+b ~ i{
+font-size: 120%;}
+p: not(.footnotes) first-letter {
+font-size: 180%;}
+p#footnotes sup:after{
+content: ")";}
+p#footnotes sup:before{
+content: "(";}
+
